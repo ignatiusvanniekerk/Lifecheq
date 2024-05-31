@@ -13,7 +13,7 @@ function App() {
   return (
     <main >
         <div className='main-block'>
-            <div className='block-one'>
+            <div className='block-one top-block'>
               <div className='inner-block'>
                 <img className="image-block" src={family} alt="Family" />
                 <p className="image-txt timeline-txt">Baby's birth</p>
@@ -21,7 +21,7 @@ function App() {
               <div className='triangle-down'></div>
               <div className='block-stripe'></div>
             </div>
-            <div className='block-two'>
+            <div className='block-two top-block'>
               <div className='inner-block'>
                 <img className="image-block" src={holiday} alt="holiday" />
                 <p className="image-txt timeline-txt">Holiday</p>
@@ -31,7 +31,7 @@ function App() {
               <div className='block-stripe'>
               </div>
             </div>
-            <div className='block-three'>
+            <div className='block-three top-block'>
               <div className='inner-block'>
                 <img className="image-block" src={retire} alt="Family" />
                 <p className="image-txt timeline-txt">Retire</p>
